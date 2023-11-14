@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-caret-down" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!----course-->
+
+<!----campus-->
+
+<!-----Facilities-->
+
+<!------Testimonials-->
+
+
+<!---call to action-->
+
+<!----about us-->
+<section class="about-us">
+    <div class="row">
+    <div class="about-col">
+    <h1>We are the World's Largest University</h1>
+    <p>The resources and facilities provided by the college are top-notch.</p>
+    <a href=""class="hero-btn red-btn" >Explore Now</a>
+    </div>
+    <div class="about-col"></div>
+        <img src="images/about.jpg">
+
+    </div>
+    </section>
+</section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Himalayan University was established with the objective of providing quality technical education with<br> adequate industrial exposure than any other universities in world.</p>
+    
+    <div class="icons">
+       <i class="fa fa-facebook"></i> 
+       <i class="fa fa-twitter"></i> 
+       <i class="fa fa-instagram"></i> 
+       <i class="fa fa-linkedin"></i> 
+       
+    </div>
+    <p>Made With<i class="fa fa-heart-o"></i> by Darshana Venkatesh</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+    <!-------javascript for toggle action----->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>

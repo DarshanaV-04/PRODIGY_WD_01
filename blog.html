@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-caret-down" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="course1">Our Certificate & Online Programs for 2023</h1>
+        
+    </section>
+<!----course-->
+<!----blog comtenet------>
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificates & Online Programs</h2>
+            <p>Himalayan University offers a variety of online certificate and advanced certificate programs. IIT Delhi’s Eruditus Executive Education offers a total of 8 certifications in future-ready fields and specialisations. These courses are suitable for any final year/ fresh graduates, early professionals, consultants, entrepreneurs, or professionals.</p>
+        <br>
+        <p>The University offers a wide range of MOOCs courses and other short-term certificate programs through its IITBombayX platform. All the MOOCs courses are offered for free in online mode and can be audited to receive a verified certificate for a minimal fee. </p>
+        <br>
+        <p>The Himalayan University provides an online BSc degree program along with a foundational certificate course and diploma programs. These online courses are offered in Data Science and Programming with an option to enroll at the foundational level course and extend it up to the diploma or degree level. </p>
+    <div class="comment-box">
+        <h3>Leave A Comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea  rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+    </div>    
+    
+    </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science </span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>65</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!----campus-->
+
+<!-----Facilities-->
+
+<!------Testimonials-->
+
+
+<!---call to action-->
+
+<!----about us-->
+
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Himalayan University was established with the objective of providing quality technical education with<br> adequate industrial exposure than any other universities in world.</p>
+    
+    <div class="icons">
+       <i class="fa fa-facebook"></i> 
+       <i class="fa fa-twitter"></i> 
+       <i class="fa fa-instagram"></i> 
+       <i class="fa fa-linkedin"></i> 
+       
+    </div>
+    <p>Made With<i class="fa fa-heart-o"></i> by Darshana Venkatesh</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+    <!-------javascript for toggle action----->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>

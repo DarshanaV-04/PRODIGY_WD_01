@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>University website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-caret-down" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="course1">Our Courses</h1>
+    </section>
+<!----course-->
+<section class="course">
+    <h1>Courses We Offer </h1>
+    <p>The department is adorned with experienced faculty and laboratories to concrete the fundamental knowledge of the students, nurturing a research culture among the student.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Under-Graduate</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea neque amet atque fugit, nesciunt est blanditiis vero! Cumque eveniet veritatis nihil, praesentium nemo assumenda similique.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post-Graduation</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea neque amet atque fugit, nesciunt est blanditiis vero! Cumque eveniet veritatis nihil, praesentium nemo assumenda similique.</p>
+        </div>
+        <div class="course-col">
+            <h3>P.H.D</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea neque amet atque fugit, nesciunt est blanditiis vero! Cumque eveniet veritatis nihil, praesentium nemo assumenda similique.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+</section>
+
+<!----campus-->
+
+<!-----Facilities-->
+<section class="Facilities">
+    <h1>Our Facilities</h1>
+    <p>A college typically offers facilities such as classrooms, libraries, laboratories, computer labs, sports facilities, cafeterias, student centers, health services, accommodation, and campus security.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg">
+            <h3>World Class Library</h3>
+            <p>The Library serves as a hub of knowledge, offering a wide range of books,  research papers, and digital resources.</p>
+
+
+
+        </div>
+        <div class="facilities-col">
+            <img src="images/Basketball.jpg">
+            <h3>Largest Play Area</h3>
+            <p>It provides a dynamic space for students to engage in competitive sports, enhance physical fitness, and foster teamwork skills.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/cafeteria.jpg">
+        <h3>Hygiene Cafeteria</h3>
+        <p>The cafeteria offers a diverse selection of delicious meals, providing students with a convenient and enjoyable dining experience.</p>
+</div>
+
+
+
+</section>
+
+<!------Testimonials-->
+
+
+<!---call to action-->
+
+<!----about us-->
+
+    
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Himalayan University was established with the objective of providing quality technical education with<br> adequate industrial exposure than any other universities in world.</p>
+    
+    <div class="icons">
+       <i class="fa fa-facebook"></i> 
+       <i class="fa fa-twitter"></i> 
+       <i class="fa fa-instagram"></i> 
+       <i class="fa fa-linkedin"></i> 
+       
+    </div>
+    <p>Made With<i class="fa fa-heart-o"></i> by Darshana Venkatesh</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+    <!-------javascript for toggle action----->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>
